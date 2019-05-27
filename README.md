@@ -1,3 +1,6 @@
+## Note
+This is a copy from Yu ShuMing.
+
 ### 1.Basic Types
 - Boolean
 - Number
