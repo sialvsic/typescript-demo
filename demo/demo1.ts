@@ -1,4 +1,4 @@
-// Tuple demo 
+// Tuple demo 元组 Tuple
 let demoTuple: [string, number];
 demoTuple = ['hello', 333]; // OK
 demoTuple[2] = 'world';

@@ -1,3 +1,4 @@
+// 索引类型
 // demo12:Index types: index type query and indexed access operators
 interface Person {
     name: string;

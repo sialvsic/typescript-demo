@@ -1,15 +1,17 @@
 {
-    "compilerOptions": {
-        "outDir": "./built", //输出的文件路径
-        "allowJs": false, //是否允许接受并导出js文件
-        "target": "es5", //目标模式
-        "noFallthroughCasesInSwitch": true, //必须存在case语句,
-        "noEmitOnError": true, //有错不允许编译出ts文件
-        "noImplicitAny": true, //不允许定义any类型
-        "strictNullChecks": true,  //严格的null检测
-        "noImplicitThis": true  //严格的this检测
-    },
-    "include": [
-        "./src/**/*" //输入的文件路径
-    ]
+  "compilerOptions": {
+    "outDir": "./built", //输出的文件路径
+    "allowJs": false, //是否允许接受Js作为输入
+    "target": "es5", //目标模式
+    "noFallthroughCasesInSwitch": true, //必须存在case语句,
+    "noEmitOnError": true, //有错不允许编译出ts文件
+    "noImplicitAny": true, //不允许定义any类型
+    "strictNullChecks": true, //严格的null检测
+    "noImplicitThis": true, //严格的this检测
+    "noImplicitReturns": true, //防止忘记在函数末尾返回值
+    "esModuleInterop": true //允许 import fn = require('') => import fn from ''
+  },
+  "include": [
+    "./src" //输入的文件路径
+  ]
 }

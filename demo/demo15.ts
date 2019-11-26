@@ -1,4 +1,4 @@
-// demo5:Overloads--when we need to depend on the shape of the arguments passed in
+// demo15:Overloads--when we need to depend on the shape of the arguments passed in
 let suits = ["hearts", "spades", "clubs", "diamonds"];
 
 function pickCard(x: { suit: string; card: number; }[]): number;
